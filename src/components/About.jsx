@@ -4,10 +4,10 @@ const About = () => {
   return (
     <div
       name="about"
-      className="w-full h-auto bg-gradient-to-b from-purple-700 to-black text-white pt-10"
+      className=" w-full h-auto bg-gradient-to-b from-purple-700 to-black text-white pt-10"
       id="sobre"
     >
-      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
+      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-auto">
         <div>
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             Sobre
@@ -59,11 +59,13 @@ const About = () => {
           </p>
         </div>
 
-        <p className="text-xl">
-          Minha atuação envolveu a criação de novos módulos para o sistema de uso
-          interno da empresa, além de adaptar os módulos já existentes no sistema
-          anterior para o novo sistema em uso.
-        </p>
+        <div className="pb-10">
+          <p className="text-xl">
+            Minha atuação envolveu a criação de novos módulos para o sistema de uso
+            interno da empresa, além de adaptar os módulos já existentes no sistema
+            anterior para o novo sistema em uso.
+          </p>
+        </div>
       </div>
     </div>
   );

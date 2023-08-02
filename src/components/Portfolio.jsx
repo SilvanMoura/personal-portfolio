@@ -53,13 +53,13 @@ const Portfolio = () => {
       demo: false,
       hrefCodeFront: 'https://github.com/SilvanMoura/petDevShop_laravel',
       hrefCodeBack: ''
-    },
+    }
   ];
 
   return (
     <div
       name="projetos"
-      className="bg-black w-full h-auto text-white md:h-screen pt-28 pb-40"
+      className="bg-black w-full h-auto text-white pt-18 pb-18"
       id="projetos"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-screen h-full">
