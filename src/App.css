@@ -277,7 +277,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color: #fff;
   font-weight: 700;
   font-size: 20px;
-  margin-top: 60px;
+  margin-top: 40px;
   letter-spacing: 0.8px;
   display: flex;
   align-items: center;
@@ -293,6 +293,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .banner img {
   animation: updown 3s linear infinite;
+  margin-top: 25px;
 }
 @keyframes updown {
     0% {
