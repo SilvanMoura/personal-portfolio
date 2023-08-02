@@ -66,7 +66,10 @@ export const Banner = () => {
                     jornada profissional e acadêmica. Aqui, você encontrará informações
                     sobre meus projetos, minhas skills e um pouco mais sobre mim.  
                   </p>
-                  <button onClick={() => console.log('connect')}>Vamos nos conectar <ArrowRightCircle size={25} /></button>
+                  <a href='#connect' class="no-underline text-white">
+                    <button>Vamos nos conectar <ArrowRightCircle size={25} /></button>
+                  </a>
+                  
               </div>}
             </TrackVisibility>
           </Col>

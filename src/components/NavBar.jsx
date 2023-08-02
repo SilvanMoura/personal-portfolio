@@ -46,12 +46,13 @@ export const NavBar = () => {
               <Nav.Link href="#sobre" className={activeLink === 'sobre' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('sobre')}>Sobre</Nav.Link>
               <Nav.Link href="#projetos" className={activeLink === 'projetos' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projetos')}>Projetos</Nav.Link>
               <Nav.Link href="#techs" className={activeLink === 'techs' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('experiência')}>Tecnologias</Nav.Link>
+              <Nav.Link href="#connect" className={activeLink === 'connect' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('Contato')}>Contato</Nav.Link>
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="https://api.whatsapp.com/send?phone=5391674532"><img src={navIcon1} alt="" /></a>
-                <a href="https://github.com/SilvanMoura"><img src={navIcon2} alt="" /></a>
-                <a href="https://www.linkedin.com/in/silvanmoura/"><img src={navIcon3} alt="" /></a>
+                <a href="https://api.whatsapp.com/send?phone=5391674532" target="_blank"><img src={navIcon1} alt="" /></a>
+                <a href="https://github.com/SilvanMoura" target="_blank"><img src={navIcon2} alt="" /></a>
+                <a href="https://www.linkedin.com/in/silvanmoura/" target="_blank"><img src={navIcon3} alt="" /></a>
               </div>
               <HashLink to='#connect'>
                 <button className="vvd"><span>Vamos nos conectar</span></button>

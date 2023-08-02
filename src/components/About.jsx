@@ -12,9 +12,10 @@ const About = () => {
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             Sobre
           </p>
+          <p className="py-6">Resumo sobre mim e minha experiência profissional</p>
         </div>
 
-        <p className="text-xl mt-20">
+        <p className="text-xl mt-10">
           Possuo 1 ano de experiência como desenvolvedor, apaixonado por resolver
           problemas e com habilidades sólidas em desenvolvimento de software. Tenho
           facilidade para aprender e me adaptar a novas tecnologias. Meu foco principal

@@ -2,11 +2,9 @@ import React from "react";
 import emporiumCoffee from "../assets/portfolio/emporium-coffee.png";
 import makeBurguer from "../assets/portfolio/make-burguer.png";
 import portfolio from '../assets/portfolio/portfolio.png';
-/* import installNode from "../assets/portfolio/installNode.jpg";
-import navbar from "../assets/portfolio/navbar.jpg";
-import reactParallax from "../assets/portfolio/reactParallax.jpg";
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
-import reactWeather from "../assets/portfolio/reactWeather.jpg"; */
+import personalFinances from '../assets/portfolio/personal-finances.png';
+import iNotes from '../assets/portfolio/iNotes.png';
+import petDevShop from '../assets/portfolio/petDevShop.png';
 
 const Portfolio = () => {
   const portfolios = [
@@ -29,8 +27,31 @@ const Portfolio = () => {
       id: 3,
       src: portfolio,
       demo: true,
-      hrefDemo: 'https://emporium-coffe.vercel.app/',
+      hrefDemo: 'https://silvan-portfolio.vercel.app/',
       hrefCodeFront: 'https://github.com/SilvanMoura/personal-portfolio',
+      hrefCodeBack: ''
+    },
+    {
+      id: 4,
+      src: personalFinances,
+      demo: true,
+      hrefDemo: 'https://venerable-froyo-730c4b.netlify.app/',
+      hrefCodeFront: 'https://github.com/SilvanMoura/personal_finance_system-react-ts',
+      hrefCodeBack: ''
+    },
+    {
+      id: 5,
+      src: iNotes,
+      demo: true,
+      hrefDemo: 'https://fancy-alfajores-0c91e2.netlify.app/',
+      hrefCodeFront: 'https://github.com/SilvanMoura/lista-tarefas_react-ts',
+      hrefCodeBack: ''
+    },
+    {
+      id: 6,
+      src: petDevShop,
+      demo: false,
+      hrefCodeFront: 'https://github.com/SilvanMoura/petDevShop_laravel',
       hrefCodeBack: ''
     },
   ];
