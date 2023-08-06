@@ -2,6 +2,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {NavBar} from './components/NavBar';
 import {Banner} from './components/Banner';
+import ParticlesBackground from './components/ParticlesBackground';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Techs from './components/Techs';
@@ -14,6 +15,7 @@ function App() {
     <div>
       <NavBar />
       <Banner />
+      <ParticlesBackground />
       <About />
       <Portfolio />
       <Techs />
